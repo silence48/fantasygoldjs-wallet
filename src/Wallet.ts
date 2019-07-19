@@ -261,7 +261,7 @@ export class Wallet {
 
   /**
    * Massage UTXOs returned by the Insight API to UTXO format accepted by the
-   * underlying qtumjs-lib.
+   * underlying fantasygoldjs-lib.
    */
   public async getBitcoinjsUTXOs(): Promise<IUTXO[]> {
     const uxtos = await this.getUTXOs()
@@ -326,6 +326,6 @@ export class Wallet {
   }
 
   // TODO
-  // qrc20 lookup
+  // fgc20 lookup
   // estimateCall
 }
