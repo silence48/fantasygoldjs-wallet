@@ -4,9 +4,9 @@ import { INetworkInfo } from "./Network"
 import { NetworkNames } from "./constants"
 
 const INSIGHT_BASEURLS: { [key: string]: string } = {
-  [NetworkNames.MAINNET]: "https://explorer.fantasygold.org/insight-api",
-  [NetworkNames.TESTNET]: "https://testnet.fantasygold.org/insight-api",
-  [NetworkNames.REGTEST]: "http://localhost:3001/insight-api",
+  [NetworkNames.MAINNET]: "https://fantasygold.network/fantasygoldinfo-api",
+  [NetworkNames.TESTNET]: "https://testnet.fantasygold.network/fantasygoldinfo-api",
+  [NetworkNames.REGTEST]: "http://localhost:3001/fantasygoldinfo-api",
 }
 
 export class Insight {
